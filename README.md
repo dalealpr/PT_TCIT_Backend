@@ -22,7 +22,7 @@ Sigue los pasos a continuación para levantar el proyecto localmente:
 
 ### 1. Instalar las dependencias 
 ```bash
-`npm i`
+npm i
 ```
 ### 2. Crear base de datos en PostgreSQL
 Se puede realizar desde PGAdmin o cualquier software de gestion de DB
@@ -33,11 +33,11 @@ Para esto existe un archivo ".env_example" el cual tiene los nombres de las vari
 
 ### 4.  Genera el cliente Prisma
 ```bash
-`npm run generate`
+npm run generate
 ```
 
 ### 5.  Ejecutar servidor
 ```bash
-`npm run dev`
+npm run dev
 ```
 
