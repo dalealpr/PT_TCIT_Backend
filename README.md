@@ -21,14 +21,23 @@ Este es el backend del proyecto técnico **TCIT**, construido con **Node.js**, *
 Sigue los pasos a continuación para levantar el proyecto localmente:
 
 ### 1. Instalar las dependencias 
-
-### 2. Crear base de datos en PostgreSQL
-
-### 3. Configura las variables de entorno
-Para esto existe un archivo .env_example el cual tiene los nombres de las variables de entorno 
-
-### 3. Configura las variables de entorno
 ```bash
-npm run generate
+`npm i`
+```
+### 2. Crear base de datos en PostgreSQL
+Se puede realizar desde PGAdmin o cualquier software de gestion de DB
+Tambien se puede realizar mediante la terminal de comandos
 
+### 3. Configura las variables de entorno
+Para esto existe un archivo ".env_example" el cual tiene los nombres de las variables de entorno 
+
+### 4.  Genera el cliente Prisma
+```bash
+`npm run generate`
+```
+
+### 5.  Ejecutar servidor
+```bash
+`npm run dev`
+```
 
